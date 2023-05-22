@@ -1,0 +1,160 @@
+{
+  "queue": [
+    {
+      "sha": "75cf8446",
+      "source": "cron_pr",
+      "benchmarkType": "oltp",
+      "pullNb": 12994,
+      "plannerVersion": "Gen4"
+    },
+    {
+      "sha": "75cf8446",
+      "source": "cron_pr",
+      "benchmarkType": "oltp-readonly",
+      "pullNb": 12994,
+      "plannerVersion": "Gen4"
+    },
+    {
+      "sha": "75cf8446",
+      "source": "cron_pr",
+      "benchmarkType": "oltp-readonly-olap",
+      "pullNb": 12994,
+      "plannerVersion": "Gen4"
+    },
+    {
+      "sha": "75cf8446",
+      "source": "cron_pr",
+      "benchmarkType": "oltp-set",
+      "pullNb": 12994,
+      "plannerVersion": "Gen4"
+    },
+    {
+      "sha": "75cf8446",
+      "source": "cron_pr",
+      "benchmarkType": "tpcc",
+      "pullNb": 12994,
+      "plannerVersion": "Gen4"
+    },
+    {
+      "sha": "d7f86b3c",
+      "source": "cron_pr_base",
+      "benchmarkType": "oltp",
+      "pullNb": 12994,
+      "plannerVersion": "Gen4"
+    },
+    {
+      "sha": "d7f86b3c",
+      "source": "cron_pr_base",
+      "benchmarkType": "oltp-readonly",
+      "pullNb": 12994,
+      "plannerVersion": "Gen4"
+    },
+    {
+      "sha": "d7f86b3c",
+      "source": "cron_pr_base",
+      "benchmarkType": "oltp-readonly-olap",
+      "pullNb": 12994,
+      "plannerVersion": "Gen4"
+    },
+    {
+      "sha": "d7f86b3c",
+      "source": "cron_pr_base",
+      "benchmarkType": "oltp-set",
+      "pullNb": 12994,
+      "plannerVersion": "Gen4"
+    },
+    {
+      "sha": "d7f86b3c",
+      "source": "cron_pr_base",
+      "benchmarkType": "tpcc",
+      "pullNb": 12994,
+      "plannerVersion": "Gen4"
+    }
+  ],
+  "executions": [
+    {
+      "uuid": "0f95aeb1",
+      "sha": "d7f86b3c",
+      "source": "cron_pr_base",
+      "startedAt": "22 May 23 08:41 UTC",
+      "finishedAt": "",
+      "type": "micro",
+      "pullNb": 12994,
+      "vtgatePlannerVersion": "",
+      "golangVersion": "1.20.4",
+      "status": "started"
+    },
+    {
+      "uuid": "bf2d5fb2",
+      "sha": "75cf8446",
+      "source": "cron_pr",
+      "startedAt": "22 May 23 06:30 UTC",
+      "finishedAt": "22 May 23 08:41 UTC",
+      "type": "micro",
+      "pullNb": 12994,
+      "vtgatePlannerVersion": "",
+      "golangVersion": "1.20.4",
+      "status": "finished"
+    },
+    {
+      "uuid": "469c70b6",
+      "sha": "2a69ceb8",
+      "source": "cron",
+      "startedAt": "22 May 23 03:30 UTC",
+      "finishedAt": "22 May 23 03:50 UTC",
+      "type": "oltp-readonly",
+      "pullNb": 0,
+      "vtgatePlannerVersion": "Gen4",
+      "golangVersion": "1.20.4",
+      "status": "finished"
+    },
+    {
+      "uuid": "47749895",
+      "sha": "2a69ceb8",
+      "source": "cron",
+      "startedAt": "22 May 23 03:09 UTC",
+      "finishedAt": "22 May 23 03:30 UTC",
+      "type": "oltp-set",
+      "pullNb": 0,
+      "vtgatePlannerVersion": "Gen4",
+      "golangVersion": "1.20.4",
+      "status": "finished"
+    },
+    {
+      "uuid": "19e1b73b",
+      "sha": "2a69ceb8",
+      "source": "cron",
+      "startedAt": "22 May 23 02:50 UTC",
+      "finishedAt": "22 May 23 03:09 UTC",
+      "type": "oltp",
+      "pullNb": 0,
+      "vtgatePlannerVersion": "Gen4",
+      "golangVersion": "1.20.4",
+      "status": "finished"
+    },
+    {
+      "uuid": "6dba7359",
+      "sha": "2a69ceb8",
+      "source": "cron",
+      "startedAt": "22 May 23 00:40 UTC",
+      "finishedAt": "22 May 23 02:50 UTC",
+      "type": "micro",
+      "pullNb": 0,
+      "vtgatePlannerVersion": "",
+      "golangVersion": "1.20.4",
+      "status": "finished"
+    },
+    {
+      "uuid": "da2ae641",
+      "sha": "2a69ceb8",
+      "source": "cron",
+      "startedAt": "22 May 23 00:19 UTC",
+      "finishedAt": "22 May 23 00:40 UTC",
+      "type": "tpcc",
+      "pullNb": 0,
+      "vtgatePlannerVersion": "Gen",
+      "golangVersion": "1.20.4",
+      "status": "finished"
+    }
+  ]
+}
