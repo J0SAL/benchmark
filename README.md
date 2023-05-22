@@ -1,11 +1,17 @@
-Sample Clone for https://benchmark.vitess.io/status
+UI Clone for arewefastyet project https://benchmark.vitess.io/status
 
-Deployed URL:
+Deployed URL: https://benchmark-lfx.vercel.app/
 
 To run this code locally:
 
 ```
-git clone https://github.com/J0SAL/benchmark.git
-npm i
-npm run start
+# clone the repo
+$ git clone https://github.com/J0SAL/benchmark.git
+# change directory
+$ cd benchmark
+# install dependencies
+$ npm i
+# run application
+$ npm run start
+# https://benchmark-lfx.vercel.app/
 ```
